@@ -8,7 +8,7 @@
                             class="text-light text-decoration-none" href="tel:88455438">88455438</a></span>
 
                 </div>
-                <div class="text-light">
+                <div>
                     <a target=”_blank” href="https://www.facebook.com/"><i
                             class="text-light fa-brands fa-facebook-f me-3"></i></a>
                     <a target=”_blank” href="https://twitter.com/"><i
