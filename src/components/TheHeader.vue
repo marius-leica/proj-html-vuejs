@@ -48,7 +48,7 @@ export default {
 @import "../assets/scss/variables";
 
 .fix-nav {
-    background-color: $dark-gray;
+    background-color: $light-black;
     padding: 0.5rem;
 
 }

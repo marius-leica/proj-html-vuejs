@@ -1,3 +1,5 @@
+@import "./variables";
+
 .my-btn {
     border-radius: var(--bs-border-radius-pill) !important;
     padding-left: 1.5rem;
@@ -7,12 +9,12 @@
 }
 
 .btn-green-gradient {
-    background: linear-gradient(90deg, rgba(147, 224, 96, 1) 0%, rgba(7, 217, 163, 1) 45%);
-    box-shadow: 5px 5px 30px rgb(7, 217, 163);
+    background: linear-gradient(90deg, $green-lemon 0%, $green-fluo 45%);
+    box-shadow: 5px 5px 30px $green-fluo;
 
     &:hover {
-        background: linear-gradient(90deg, rgb(65, 65, 65) 0%, rgb(21, 21, 21) 45%);
-        box-shadow: 5px 5px 30px rgb(65, 65, 65);
+        background: linear-gradient(90deg, light-black 0%, $dark-black 45%);
+        box-shadow: 5px 5px 30px light-black;
         border: transparent;
 
         color: white;
@@ -22,11 +24,11 @@
 
 
 .btn-black-gradient {
-    background: linear-gradient(90deg, rgb(65, 65, 65) 0%, rgb(21, 21, 21) 45%);
+    background: linear-gradient(90deg, light-black 0%, $dark-black 45%);
     color: white;
 
     &:hover {
-        background: linear-gradient(90deg, rgba(147, 224, 96, 1) 0%, rgba(7, 217, 163, 1) 45%);
+        background: linear-gradient(90deg, $green-lemon 0%, $green-fluo 45%);
         color: white;
     }
 }

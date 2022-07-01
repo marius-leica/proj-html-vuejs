@@ -1,0 +1,23 @@
+@import "./variables";
+
+.bg-dark-gray {
+    background-color: $dark-gray;
+}
+
+.bg-light-gray {
+    background-color: $light-gray;
+}
+
+.bg-white-gray {
+    background-color: $white-gray;
+}
+
+.color.green-fluo {
+    color: $green-fluo;
+}
+
+.vertical-gradient-green {
+    background: linear-gradient(0deg, rgba(147, 224, 96, 1) 0%, rgba(7, 217, 163, 1) 45%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
