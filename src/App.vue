@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <TheHeader></TheHeader>
+    <TheHeader :navbar="navbar"></TheHeader>
     <TheMain></TheMain>
     <TheFooter></TheFooter>
 
@@ -20,7 +20,14 @@ export default {
     TheHeader,
     TheMain,
     TheFooter,
-  }
+  },
+  data() {
+
+    return {
+      navbar: ["HOME", "ABOUT", "SERVICES", "SHOWCASE", "BLOG", "CONTACT"],
+    };
+  },
+
 }
 </script>
 

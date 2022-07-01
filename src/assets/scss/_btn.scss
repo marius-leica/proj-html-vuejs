@@ -1,31 +1,32 @@
-.btn-green-gradient {
-    background: linear-gradient(90deg, rgba(147, 224, 96, 1) 0%, rgba(7, 217, 163, 1) 45%);
+.my-btn {
     border-radius: var(--bs-border-radius-pill) !important;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+    color: white;
     transition: all 0.5s ease-in-out;
+}
 
+.btn-green-gradient {
+    background: linear-gradient(90deg, rgba(147, 224, 96, 1) 0%, rgba(7, 217, 163, 1) 45%);
+    box-shadow: 5px 5px 30px rgb(7, 217, 163);
 
     &:hover {
         background: linear-gradient(90deg, rgb(65, 65, 65) 0%, rgb(21, 21, 21) 45%);
+        box-shadow: 5px 5px 30px rgb(65, 65, 65);
+        border: transparent;
+
         color: white;
     }
-
 }
+
+
 
 .btn-black-gradient {
     background: linear-gradient(90deg, rgb(65, 65, 65) 0%, rgb(21, 21, 21) 45%);
     color: white;
-    border-radius: var(--bs-border-radius-pill) !important;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    transition: all 0.5s ease-in-out;
-
 
     &:hover {
         background: linear-gradient(90deg, rgba(147, 224, 96, 1) 0%, rgba(7, 217, 163, 1) 45%);
-
-
+        color: white;
     }
-
 }

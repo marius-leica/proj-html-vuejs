@@ -20,7 +20,7 @@
         </div>
         <!-- qui verrà inserita la barra griggia che contiene il tel a sx e socials a dx -->
 
-        <TheNav>
+        <TheNav :navbar="navbar">
             <!-- Questa sarà la nav vera che potra essere stichy  -->
         </TheNav>
     </div>
@@ -30,6 +30,12 @@
 import TheNav from './TheNav.vue'
 
 export default {
+    props: {
+        navbar: {
+            type: Array,
+            required: true
+        }
+    },
     data() {
         return {};
     },
