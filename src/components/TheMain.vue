@@ -45,6 +45,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "../assets/scss/btn";
 @import "../assets/scss/variables";
 @import "../assets/scss/utility";
 </style> 

@@ -13,8 +13,8 @@
     box-shadow: 5px 5px 30px $green-fluo;
 
     &:hover {
-        background: linear-gradient(90deg, light-black 0%, $dark-black 45%);
-        box-shadow: 5px 5px 30px light-black;
+        background: linear-gradient(90deg, $light-black 0%, $dark-black 45%);
+        box-shadow: 5px 5px 30px $light-black;
         border: transparent;
 
         color: white;
@@ -24,11 +24,15 @@
 
 
 .btn-black-gradient {
-    background: linear-gradient(90deg, light-black 0%, $dark-black 45%);
+    background: linear-gradient(90deg, $light-black 0%, $dark-black 45%);
+    box-shadow: 5px 5px 30px $light-black;
     color: white;
 
     &:hover {
         background: linear-gradient(90deg, $green-lemon 0%, $green-fluo 45%);
+        box-shadow: 5px 5px 30px $green-fluo;
+        border-color: $green-lemon;
+
         color: white;
     }
 }

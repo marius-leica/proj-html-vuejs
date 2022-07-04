@@ -2,7 +2,7 @@
   <div id="app">
     <TheHeader :navbar="navbar"></TheHeader>
     <TheMain></TheMain>
-    <TheFooter></TheFooter>
+    <TheFooter :quick-links="quickLinks" :contact="contact"></TheFooter>
 
   </div>
 </template>
@@ -25,6 +25,9 @@ export default {
 
     return {
       navbar: ["HOME", "ABOUT", "SERVICES", "SHOWCASE", "BLOG", "CONTACT"],
+      quickLinks: ["Careers", "News", "Terms of use", "Privacy Projects", "About", "Contacts"],
+      contact: ["Patricia C. Amedee 4401 Waldeck Street Grapevine Nashville, TX 76051", "info@yourdomain.com", "+99(0)1010000888"],
+
     };
   },
 
