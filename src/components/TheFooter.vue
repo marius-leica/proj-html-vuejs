@@ -1,10 +1,11 @@
 <template>
     <div>
-        <div class="container">
+        <div class="container py-5 my-5">
             <div class="row row-cols-4">
                 <div class="col">
                     <img src="/img/cropped-Group-39-2x.png" alt="Business logo">
-                    <p>While the lovely valley teems with vapour around me, and the meridian sun strikes the upper
+                    <p class="pt-4">While the lovely valley teems with vapour around me, and the meridian sun strikes
+                        the upper
                         surface of the impenetrable foliage of the trees. While the lovely valley teems with vapour
                         around me.</p>
                 </div>
@@ -26,6 +27,10 @@
                     <h4>
                         <strong>CONTACT</strong>
                     </h4>
+                    <div class="underline-container">
+                        <div class="underline-small"></div>
+                        <div class="underline-big"></div>
+                    </div>
                     <ul class="list-unstyled">
                         <li>
                             <a class="text-muted text-decoration-none" href="https://goo.gl/maps/kkMQWRijuHyP7RnL6">{{
@@ -48,19 +53,19 @@
                 <div class=" col">
                     <h4>
                         <strong>LOCATION ON MAP</strong>
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3348.173561947212!2d-97.07354588464175!3d32.94642678092122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sPatricia%20C.%20Amedee%204401%20Waldeck%20Street%20Grapevine%20Nashville%2C%20TX%2076051!5e0!3m2!1sit!2sit!4v1656923593267!5m2!1sit!2sit"
-                            width="350" height="200" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </h4>
+                    <div class="underline-container">
+                        <div class="underline-small"></div>
+                        <div class="underline-big"></div>
+                    </div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3348.173561947212!2d-97.07354588464175!3d32.94642678092122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sPatricia%20C.%20Amedee%204401%20Waldeck%20Street%20Grapevine%20Nashville%2C%20TX%2076051!5e0!3m2!1sit!2sit!4v1656923593267!5m2!1sit!2sit"
+                        width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
                 </div>
             </div>
         </div>
-        <!-- Conterrà 4 collone:  -->
-        <!-- -Phlox | Bussiness -->
-        <!-- -QUICK LINKS [Careers, News, Terms of use, Privacy Projects, About, Contacts] -->
-        <!-- -CONTACTS Patricia C. Amedee 4401 Waldeck Streer Grapevine Nashville, TX 76051 info@yourdomain.com +99(0)1010000888 -->
-        <!-- -LOCATION ON MAP  -->
         <div class="black-footer py-5">
             <div class="container d-flex justify-content-between">
                 <div><span>&copy; 2020 PHLOX BUSINESS THEME.</span></div>
@@ -93,6 +98,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "../assets/scss/btn";
+@import "../assets/scss/variables";
+@import "../assets/scss/utility";
+
+
 .black-footer {
     background: linear-gradient(90deg, rgb(65, 65, 65) 0%, rgb(21, 21, 21) 60%);
     color: gray;
@@ -104,11 +114,27 @@ export default {
     }
 }
 
-.underline::after {
-    content: "";
-    display: block;
-    width: 32px;
-    padding-top: 3px;
-    border-bottom: 2px solid #f9dd94;
+.underline-container {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    ;
+    width: 55px;
+    height: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.underline-small {
+    background: linear-gradient(0deg, rgba(147, 224, 96, 1) 0%, rgba(7, 217, 163, 1) 75%);
+
+    border-radius: var(--bs-border-radius-pill) !important;
+    width: 10px;
+}
+
+.underline-big {
+    background: linear-gradient(0deg, rgba(147, 224, 96, 1) 0%, rgba(7, 217, 163, 1) 75%);
+
+    border-radius: var(--bs-border-radius-pill) !important;
+    width: 40px;
 }
 </style>
