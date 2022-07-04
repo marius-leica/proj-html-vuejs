@@ -113,28 +113,4 @@ export default {
         color: gray;
     }
 }
-
-.underline-container {
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-    ;
-    width: 55px;
-    height: 4px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.underline-small {
-    background: linear-gradient(0deg, rgba(147, 224, 96, 1) 0%, rgba(7, 217, 163, 1) 75%);
-
-    border-radius: var(--bs-border-radius-pill) !important;
-    width: 10px;
-}
-
-.underline-big {
-    background: linear-gradient(0deg, rgba(147, 224, 96, 1) 0%, rgba(7, 217, 163, 1) 75%);
-
-    border-radius: var(--bs-border-radius-pill) !important;
-    width: 40px;
-}
 </style>

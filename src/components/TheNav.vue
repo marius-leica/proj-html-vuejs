@@ -1,6 +1,6 @@
 <template>
     <div>
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg ">
             <div class="container d-flex justify-content-between">
                 <div>
                     <a class="navbar-brand d-block py-4" href="#">
@@ -24,7 +24,7 @@
                             <form class="d-flex d-none d-lg-block " role="search">
                                 <button class="btn btn-link dropdown-toggle ps-3 pe-0 " type="button"
                                     id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"><i
-                                        class="fa-solid fa-magnifying-glass text-green"></i></button>
+                                        class="fa-solid fa-magnifying-glass vertical-gradient-green"></i></button>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                                     <li><input class="form-control me-2" type="search" placeholder="Search"
                                             aria-label="Search"></li>
@@ -70,6 +70,7 @@ export default {
 
 <style lang="scss" scoped>
 @import "../assets/scss/btn";
+@import "../assets/scss/utility";
 
 .text-green {
     color: #00b300;
