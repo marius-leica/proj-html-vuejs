@@ -1,6 +1,6 @@
 <template>
     <div>
-        <section class="bg-light-gray mt-5 pt-5 pb-3 mb-3 overflow-hidden position-relative">
+        <section class="bg-light-gray pt-5 pb-3 mb-3 overflow-hidden position-relative">
             <div class="container">
                 <div class="row row-cols-2">
                     <div class="col">
@@ -192,7 +192,7 @@
                 <div class="btn my-btn btn-green-gradient mt-5">READ MORE</div>
             </div>
         </section>
-        <section class="bg-light-gray mt-5 pt-5 pb-5 mb-5 position-relative">
+        <section class="bg-light-gray mt-5 pt-5 pb-5  position-relative">
             <div class="container d-flex py-5 flex-column">
                 <div class="position-relative w-100 h-100 pb-5 mb-5">
                     <div class="numbered-projects rounded my-5 shadow"
@@ -366,7 +366,7 @@
                 </div>
             </div>
         </section>
-        <section class="mt-5 pt-5 pb-3 mb-3 ">
+        <section class="pb-3 mb-3 ">
             <div class="testimonial-section" :style="{ 'background-image': 'url(' + officeReunion + ')' }">
                 <div class="w-100 h-100 bg-alpha-black">
                     <div class=" container pt-5">

@@ -1,9 +1,9 @@
 <template>
-    <div class="">
+    <div class="shadow-sm">
         <nav class="navbar navbar-expand-lg">
             <div class="container d-flex justify-content-between">
                 <div>
-                    <a class="navbar-brand d-block py-4" href="#">
+                    <a class="navbar-brand d-block py-2" href="#">
                         <img src="/img/cropped-Group-39-2x.png" alt="Business logo">
                     </a>
                 </div>
