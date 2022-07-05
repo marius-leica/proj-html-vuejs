@@ -49,3 +49,35 @@
 .pb-8 {
     padding-bottom: 8rem;
 }
+
+.w-55 {
+    width: 55%;
+}
+
+.top-25 {
+    top: 25%;
+}
+
+.start-45 {
+    left: 45%;
+}
+
+.bg-gradient-black {
+    background: linear-gradient(90deg, rgb(65, 65, 65) 0%, rgb(21, 21, 21) 60%);
+}
+
+.bg-gradient-green {
+    background: linear-gradient(90deg, rgb(147, 224, 96) 0%, rgb(0, 217, 166) 45%);
+}
+
+.h-10 {
+    height: 10px;
+}
+
+.bg-alpha-black {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.object-cover {
+    object-fit: cover;
+}

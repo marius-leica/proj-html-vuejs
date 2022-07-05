@@ -1,6 +1,6 @@
 <template>
     <div>
-        <nav class="navbar navbar-expand-lg ">
+        <nav class="navbar navbar-expand-lg">
             <div class="container d-flex justify-content-between">
                 <div>
                     <a class="navbar-brand d-block py-4" href="#">
