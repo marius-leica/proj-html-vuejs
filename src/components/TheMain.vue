@@ -4,25 +4,32 @@
             <div class="container">
                 <div class="row row-cols-2">
                     <div class="col">
-                        <h6 class="vertical-gradient-green">17 YEARS OF EXPERIENCE</h6>
-                        <h1> <strong>Focus on Your<br> <span class="color-green-fluo">Business</span></strong></h1>
-                        <div class="underline-container">
+                        <h6 class="vertical-gradient-green" data-aos="fade-right" data-aos-duration="1500">17 YEARS OF
+                            EXPERIENCE</h6>
+                        <h1 data-aos="fade-up" data-aos-duration="1500"> <strong>Focus on Your<br> <span
+                                    class="color-green-fluo">Business</span></strong></h1>
+                        <div class="underline-container" data-aos="fade-left" data-aos-duration="1500">
                             <div class="underline-small"></div>
                             <div class="underline-big"></div>
                         </div>
-                        <p> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                        <p data-aos="zoom-in-up" data-aos-duration="1500"> Far far away, behind the word mountains, far
+                            from the countries
+                            Vokalia and Consonantia,
                             There live the blind Texts. Separated they live in Bookmarksgrove right at the coast of the
                             Semantics, a large language ocean. Separated they live in Bookmarksgrove.</p>
-                        <div class="btn my-btn btn-black-gradient my-5">READ MORE</div>
+                        <div class="btn my-btn btn-black-gradient my-5" data-aos="zoom-in-up" data-aos-duration="1500">
+                            READ MORE</div>
                         <div class="d-flex justify-content-between align-items-baseline">
-                            <h5 class="pt-5 pb-4 social-links">
-                                <a target="_blank" class="text-decoration-none green-link"
+                            <h5 data-aos="fade-left" data-aos-duration="1500" class="pt-5 pb-4 social-links">
+                                <a data-aos="fade-left" data-aos-duration="1500" target="_blank"
+                                    class="text-decoration-none green-link"
                                     href="https://it-it.facebook.com/">FACEBOOK</a> -
-                                <a target="_blank" class="text-decoration-none green-link"
+                                <a data-aos="fade-left" data-aos-duration="1500" target="_blank"
+                                    class="text-decoration-none green-link"
                                     href="https://www.instagram.com/">INSTAGRAM</a> -
-                                <a target="_blank" class="text-decoration-none green-link"
+                                <a data-aos="fade-left" target="_blank" class="text-decoration-none green-link"
                                     href="https://www.youtube.com/">YOUTUBE</a> -
-                                <a target="_blank" class="text-decoration-none green-link"
+                                <a data-aos="fade-left" target="_blank" class="text-decoration-none green-link"
                                     href="https://twitter.com/">TWITTER</a>
                             </h5>
                             <!-- <div class="btn btn-black-gradient d-flex h-100 rounded-pill p-0">
@@ -33,7 +40,7 @@
                             </div> -->
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col" data-aos="zoom-in-up" data-aos-duration="1500">
                         <TheSlider />
                         <!-- <img class="position-absolute top-50 translate-middle-y hero-img img-fluid"
                             src="/img/Group-35-2x.png" alt=""> -->
@@ -46,7 +53,7 @@
             <div class="container position-relative">
                 <div class="row">
                     <div class="col col-4">
-                        <div class="ot-5">
+                        <div class="ot-5 " data-aos="fade-up" data-aos-duration="1500">
                             <h2>We Are Here To<br> Make Your <span class="color-green-fluo">Website</span><br> Look More
                                 <span class="color-green-fluo">Elegant</span><br> And Stylish!
                             </h2>
@@ -59,7 +66,7 @@
                     </div>
                     <div class="col col-8">
                         <div class="row row-cols-2 mb-5">
-                            <div class="col">
+                            <div class="col" data-aos="fade-left" data-aos-duration="1500">
                                 <div class="card px-3 py-4 shadow my-green-card">
                                     <div class=" card-body">
                                         <i class="fa-solid fa-gauge-high color-green-fluo mb-4"></i>
@@ -70,7 +77,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col">
+                            <div class="col" data-aos="fade-left" data-aos-duration="1500">
                                 <div class="card px-3 py-4 shadow my-green-card">
                                     <div class="card-body">
                                         <i class="fa-solid fa-cloud color-green-fluo mb-4"></i>
@@ -83,7 +90,7 @@
                             </div>
                         </div>
                         <div class="row row-cols-2">
-                            <div class="col">
+                            <div class="col" data-aos="fade-left" data-aos-duration="1500">
                                 <div class="card px-3 py-4 shadow my-green-card">
                                     <div class="card-body">
                                         <i class="fa-solid fa-tablet-screen-button color-green-fluo mb-4"></i>
@@ -94,7 +101,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col">
+                            <div class="col" data-aos="fade-left" data-aos-duration="1500">
                                 <div class="card px-3 py-4 shadow my-green-card">
                                     <div class="card-body">
                                         <i class="fa-solid fa-stopwatch color-green-fluo mb-4"></i>
@@ -106,7 +113,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="vertical-p">17 yeasr of experience helping people
+                        <div class="vertical-p">17 yeasr of experience
+                            helping people
                             for best solutions</div>
                     </div>
                 </div>
@@ -142,7 +150,8 @@
                                 There live the blind Texts. Separated they live in Bookmarksgrove right at the coast of
                                 the
                                 Semantics, a large language ocean. Separated they live in Bookmarksgrove.</p>
-                            <div class="btn my-btn btn-green-gradient">READ MORE</div>
+                            <div data-aos="zoom-out" data-aos-duration="1500" class="btn my-btn btn-green-gradient">READ
+                                MORE</div>
                         </div>
                     </div>
 

@@ -5,8 +5,10 @@
                 <img :src="currentImg" />
             </div>
         </transition-group>
-        <a class="prev rounded-circle" @click="prev" href="#">&#10094; </a>
-        <a class="next rounded-circle" @click="next" href="#">&#10095; </a>
+        <a data-aos="fade-left" data-aos-duration="1500" class="prev rounded-circle" @click="prev" href="#">&#10094;
+        </a>
+        <a data-aos="fade-left" data-aos-duration="1500" class="next rounded-circle" @click="next" href="#">&#10095;
+        </a>
     </div>
 </template>
 
@@ -107,13 +109,13 @@ img {
 }
 
 .next {
-    right: 45%;
+    right: 90%;
     /* bottom: -49px; */
     top: 83%;
 }
 
 .prev {
-    left: 48%;
+    left: -10%;
     /* bottom: -49px; */
     top: 83%;
 }
