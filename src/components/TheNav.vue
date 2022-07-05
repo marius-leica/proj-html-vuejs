@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="">
         <nav class="navbar navbar-expand-lg">
             <div class="container d-flex justify-content-between">
                 <div>
@@ -40,10 +40,6 @@
 
             </div>
         </nav>
-        <!-- logo e nome a sx -->
-        <!-- in mezzo HOME, ABOUT, SERVICES, SHOWCASE, BLOG, CONTACT -->
-        <!-- a dx btn PURCHASE e icona ricerca -->
-
 
     </div>
 </template>

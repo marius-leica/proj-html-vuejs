@@ -3,7 +3,7 @@
     <TheHeader :navbar="navbar"></TheHeader>
     <TheMain :projects="projects"></TheMain>
     <TheFooter :quick-links="quickLinks" :contact="contact"></TheFooter>
-
+    <go-top style="bg - color:white"></go-top>
   </div>
 </template>
 
@@ -13,6 +13,8 @@ import TheHeader from './components/TheHeader.vue'
 import TheMain from './components/TheMain.vue'
 import TheFooter from './components/TheFooter.vue'
 
+import GoTop from '@inotom/vue-go-top';
+
 
 export default {
   name: 'App',
@@ -20,6 +22,8 @@ export default {
     TheHeader,
     TheMain,
     TheFooter,
+
+    GoTop
   },
   data() {
 

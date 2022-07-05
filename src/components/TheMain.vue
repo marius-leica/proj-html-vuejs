@@ -16,28 +16,30 @@
                         <div class="btn my-btn btn-black-gradient my-5">READ MORE</div>
                         <div class="d-flex justify-content-between align-items-baseline">
                             <h5 class="pt-5 pb-4 social-links">
-                                <a target="_blank" class="text-muted text-decoration-none green-link"
+                                <a target="_blank" class="text-decoration-none green-link"
                                     href="https://it-it.facebook.com/">FACEBOOK</a> -
-                                <a target="_blank" class="text-muted text-decoration-none"
+                                <a target="_blank" class="text-decoration-none green-link"
                                     href="https://www.instagram.com/">INSTAGRAM</a> -
-                                <a target="_blank" class="text-muted text-decoration-none"
+                                <a target="_blank" class="text-decoration-none green-link"
                                     href="https://www.youtube.com/">YOUTUBE</a> -
-                                <a target="_blank" class="text-muted text-decoration-none"
+                                <a target="_blank" class="text-decoration-none green-link"
                                     href="https://twitter.com/">TWITTER</a>
                             </h5>
-                            <div class="btn btn-black-gradient d-flex h-100 rounded-pill p-0">
+                            <!-- <div class="btn btn-black-gradient d-flex h-100 rounded-pill p-0">
                                 <div class="text-center py-2 px-3 color-gray">01</div>
                                 <div class="text-center py-2 px-3 rounded-pill btn-green-gradient color-gray">
                                     02</div>
                                 <div class="text-center py-2 px-3 color-gray">03</div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                     <div class="col">
-                        <img class="position-absolute top-50 translate-middle-y hero-img img-fluid"
-                            src="/img/Group-35-2x.png" alt="">
+                        <TheSlider />
+                        <!-- <img class="position-absolute top-50 translate-middle-y hero-img img-fluid"
+                            src="/img/Group-35-2x.png" alt=""> -->
                     </div>
                 </div>
+
             </div>
         </section>
         <section class="mt-5 pt-5 pb-3 mb-3">
@@ -389,7 +391,7 @@
                 </div>
             </div>
         </section>
-        <div class="section position-relative my-5 py-5 ">
+        <section class="position-relative my-5 py-5 ">
             <div class="container text-center">
                 <div>
                     <h2>
@@ -400,61 +402,61 @@
                         <div data-v-64a4526c="" class="underline-big"></div>
                     </div>
                 </div>
-                <div class="row row-cols-3 position-relative">
+                <div class="row row-cols-3 position-relative ">
                     <div data-v-64a4526c="" class="vertical-p-left">17 yeasr of experience helping people for best
                         solutions
                     </div>
-                    <div class="col position-relative">
+                    <div class="col position-relative hover-col">
                         <div class="rounded overflow-hidden shadow">
                             <img class="w-100"
                                 src="/img/serious-businesswoman-with-documents-talking-on-P9Q6LX6-1024.jpg" alt="">
                         </div>
                         <div class="card-banner rounded py-3 px-2 shadow text-start">
                             <div class="d-flex">
-                                <h4><span class="text-white">&#x2022;</span>&nbsp;</h4>
-                                <p class="text-muted mb-0">
+                                <h4><span class="opacity-0">&#x2022;</span>&nbsp;</h4>
+                                <p class="text-transparent mb-0">
                                     May 24, 2018&nbsp;&#x2022;by
                                     Alex
                                 </p>
                             </div>
                             <h4>
-                                <span class="color-green-fluo">&#x2022;</span>&nbsp;Marketing Ideas
+                                <span class="color-green-fluo green-dot">&#x2022;</span>&nbsp;Marketing Ideas
                             </h4>
                         </div>
                     </div>
-                    <div class="col position-relative">
+                    <div class="col position-relative hover-col">
                         <div class="rounded overflow-hidden shadow">
                             <img class="w-100" src=" /img/Businessman-at-the-desk-in-his-office-resting--1024x768.jpg"
                                 alt="">
                         </div>
                         <div class="card-banner rounded py-3 px-2 shadow text-start">
                             <div class="d-flex">
-                                <h4><span class="text-white">&#x2022;</span>&nbsp;</h4>
+                                <h4><span class="opacity-0">&#x2022;</span>&nbsp;</h4>
                                 <p class="text-muted mb-0">
                                     May 24, 2018&nbsp;&#x2022;by
                                     Alex
                                 </p>
                             </div>
                             <h4>
-                                <span class="color-green-fluo">&#x2022;</span>&nbsp;Rest During Working Hours
+                                <span class="color-green-fluo green-dot">&#x2022;</span>&nbsp;Rest During Working Hours
                             </h4>
                         </div>
                     </div>
-                    <div class="col position-relative">
+                    <div class="col position-relative hover-col">
                         <div class="rounded overflow-hidden shadow">
                             <img class="w-100" src=" /img/simple-home-office-with-tree-PBXRXYB-large-1024x768.jpg"
                                 alt="">
                         </div>
                         <div class="card-banner rounded py-3 px-2 shadow text-start">
                             <div class="d-flex">
-                                <h4><span class="text-white">&#x2022;</span>&nbsp;</h4>
+                                <h4><span class="opacity-0">&#x2022;</span>&nbsp;</h4>
                                 <p class="text-muted mb-0">
                                     May 24, 2018&nbsp;&#x2022;by
                                     Alex
                                 </p>
                             </div>
                             <h4>
-                                <span class="color-green-fluo">&#x2022;</span>&nbsp;Develop Your Startup Idea
+                                <span class="color-green-fluo green-dot">&#x2022;</span>&nbsp;Develop Your Startup Idea
                             </h4>
                         </div>
                     </div>
@@ -485,8 +487,8 @@
                 </div>
 
             </div>
-        </div>
-        <div class="section bg-light pt-5">
+        </section>
+        <section class="bg-light pt-5">
             <div class="container pt-5 my-5">
                 <div class="d-flex justify-content-between align-items-center py-5 my-5">
                     <div>
@@ -509,18 +511,23 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     </div>
 </template>
 
 <script>
+import TheSlider from './TheSlider.vue'
 
 export default {
+    components: {
+        TheSlider,
+    },
     props: {
         projects: Array,
     },
     data() {
         return {
+
             greenImg: '/img/busy-architect-PYVKWM4-1024x872.jpg',
             greenImg2: '/img/person-with-long-curly-hair-PZ99QM2-2x.jpg',
             officeReunion: '/img/four-businesspeople-in-a-boardroom-with-paperwork-PC4V8H4.jpg',
@@ -543,8 +550,13 @@ export default {
     right: -15% !important;
 }
 
-h5 .green-link:hover {
-    color: $green-fluo;
+.green-link {
+    color: black;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        color: $green-fluo;
+    }
 }
 
 .my-green-card .card-body .fa-solid {
@@ -692,5 +704,31 @@ h5 .green-link:hover {
     position: absolute;
     top: 100%;
     right: 0;
+}
+
+.hover-col {
+    div img {
+        transition: all 0.5s ease-in-out;
+    }
+
+    .card-banner {
+        transition: all 0.5s ease-in-out;
+    }
+
+    &:hover {
+        div img {
+            transform: scale(1.1);
+        }
+
+        .card-banner {
+            transform: translateY(-20%);
+            background: linear-gradient(90deg, rgb(147, 224, 96) 0%, rgb(0, 217, 166) 45%);
+            color: white;
+        }
+
+        .green-dot {
+            color: white;
+        }
+    }
 }
 </style>

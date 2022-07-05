@@ -19,7 +19,7 @@
                     </div>
                     <ul class="list-unstyled">
                         <li v-for="link in quickLinks" :key="link">
-                            <a class="text-muted text-decoration-none" href="#">{{ link }}</a>
+                            <a class=" text-decoration-none link-hover" href="#">{{ link }}</a>
                         </li>
                     </ul>
                 </div>
@@ -111,6 +111,15 @@ export default {
 
     a .fa-brands {
         color: gray;
+    }
+}
+
+.link-hover {
+    color: black;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        color: $green-fluo;
     }
 }
 </style>

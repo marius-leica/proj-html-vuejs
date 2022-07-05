@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="fix-nav">
+        <div class="fix-nav sticky-top">
             <div class="container d-flex justify-content-between">
                 <div class="text-light"><i class="fa-solid fa-phone me-2"></i><span><a
                             class="text-light text-decoration-none"
